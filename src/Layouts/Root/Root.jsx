@@ -6,12 +6,16 @@ import Menu from '../../Components/Menu/Menu';
 import LeftAside from '../../Components/LeftAside/LeftAside';
 import RightAside from '../../Components/RightAside/RightAside';
 export default function Root() {
+   
     return (
         <div>
             <header>
+                
                 <Navbar></Navbar>
                 <LatestNews></LatestNews>
                 <Menu></Menu>
+              
+              
             </header>
             <main className='w-10/12 mt-15 mx-auto grid grid-cols-12 gap-4'>
                 <aside className='left-aside col-span-3 sticky top-0 h-fit'>

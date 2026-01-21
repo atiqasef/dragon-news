@@ -140,7 +140,7 @@ const NewsCard = ({ news }) => {
 
         {/* Read More (Route based) */}
         <Link
-          to={`/news/${id}`}
+          to={`/news-details/${id}`}
           className="text-secondary font-semibold text-sm inline-block"
         >
           Read More
